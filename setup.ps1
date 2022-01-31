@@ -4,7 +4,7 @@
 #
 
 # remap capslock key to escape
-caps-remap.reg
+.\installers\caps-remap.reg
 
 # install Git with winget
 winget install Git.Git
@@ -15,6 +15,20 @@ winget install wez.wezterm
 # install GitHub CLI with winget
 winget install --id GitHub.cli
 
+# install visual studio
+# winget install --id Microsoft.VisualStudio.2022.Community
+winget install --id Microsoft.VisualStudio.2022.BuildTools
+winget install --id Microsoft.VC++2015-2022Redist-x64
+
+# install rust (may not be the best way)
+# winget install --id Rustlang.Rust.MSVC
+# winget install --id Rustlang.Rust.GNU
+#
+# install rust the best way
+# ./installers/vs_BuildTools.exe
+winget install --id Microsoft.VisualStudio.2019.BuildTools
+./installers/rustup-init.exe
+
 # Login to GitHub
 gh auth login
 
@@ -24,9 +38,11 @@ cd $HOME\Projects
 
 # install the posh-git module
 Install-Module posh-git -Scope CurrentUser -Force
+Import-Module posh-git
 
 # install cd-extras
 Install-Module -Name cd-extras -Scope CurrentUser -Force
+Import-Module cd-extras
 
 # Set the execution policy to Bypass so we can run scripts
 Set-ExecutionPolicy Bypass -Scope Process -Force
