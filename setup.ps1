@@ -9,8 +9,12 @@
 # install Git with winget
 winget install Git.Git
 
-# install Wez terminal
-winget install wez.wezterm
+# install Your favorite terminal
+# winget install wez.wezterm
+winget install Microsoft.WindowsTerminal
+
+# install some Gnu utilities
+winget install GnuWin32.Grep
 
 # install GitHub CLI with winget
 winget install --id GitHub.cli
