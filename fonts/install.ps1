@@ -1,12 +1,15 @@
-echo "Installing Fonts"
+Write-Output "Installing Fonts"
 
 $fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
 
-foreach ($file in gci *.ttf) {
+foreach ($file in Get-ChildItem *.ttf)
+{
 	$fileName = $file.Name
-	if (-not(Test-Path -Path "C:\Windows\fonts\$fileName")) {
-		echo "Copying $fileName"
-		dir $file | %{ $fonts.CopyHere($_.fullname) }
+	if (-not(Test-Path -Path "C:\Windows\fonts\$fileName"))
+	{
+		Write-Output "Copying $fileName"
+		Get-ChildItem $file | ForEach-Object{ $fonts.CopyHere($_.fullname) }
 	}
 }
-cp *.ttf c:\windows\fonts\
+
+# Copy-Item *.ttf c:\windows\fonts\
