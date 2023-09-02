@@ -1,0 +1,130 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2023-09-02T13:23:18-07:00",
+            "Manifests": 1891
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2023-09-02T13:22:48-07:00",
+            "Manifests": 1229
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2023-09-02T10:47:08.0033059-07:00",
+            "Source": "main",
+            "Version": "23.01",
+            "Name": "7zip",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:59:48.3825924-07:00",
+            "Source": "main",
+            "Version": "3.11.2",
+            "Name": "dark",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T12:15:43.6240384-07:00",
+            "Source": "extras",
+            "Version": "117.0",
+            "Name": "firefox",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:10:53.4098696-07:00",
+            "Source": "extras",
+            "Version": "2.7.3",
+            "Name": "firefoxpwa",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:57:51.8171746-07:00",
+            "Source": "main",
+            "Version": "11.2.0",
+            "Name": "gcc",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:16:20.3903766-07:00",
+            "Source": "main",
+            "Version": "2.33.0",
+            "Name": "gh",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T10:50:27.7892616-07:00",
+            "Source": "main",
+            "Version": "2.42.0.2",
+            "Name": "git",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:38:03.321719-07:00",
+            "Source": "main",
+            "Version": "0.9.1",
+            "Name": "neovim",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T12:03:59.0033095-07:00",
+            "Source": "main",
+            "Version": "1.1.11",
+            "Name": "nvm",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T13:59:52.1515552-07:00",
+            "Source": "extras",
+            "Version": "1.1.0",
+            "Name": "posh-git",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T10:57:43.3117364-07:00",
+            "Source": "main",
+            "Version": "7.3.6",
+            "Name": "pwsh",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T12:06:37.1202527-07:00",
+            "Source": "main",
+            "Version": "3.11.5",
+            "Name": "python",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T10:55:39.6651175-07:00",
+            "Source": "main",
+            "Version": "0.3.0",
+            "Name": "uncap",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:15:26.6484976-07:00",
+            "Source": "extras",
+            "Version": "14.36.32532.0",
+            "Name": "vcredist2022",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T11:47:31.2014916-07:00",
+            "Source": "extras",
+            "Version": "0.13",
+            "Name": "vifm",
+            "Info": ""
+        },
+        {
+            "Updated": "2023-09-02T14:18:28.7893233-07:00",
+            "Source": "main",
+            "Version": "1.5.2201",
+            "Name": "winget",
+            "Info": ""
+        }
+    ]
+}

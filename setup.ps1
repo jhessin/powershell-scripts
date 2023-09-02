@@ -3,43 +3,6 @@
 #
 #
 
-# remap capslock key to escape
-.\installers\caps-remap.reg
-
-# install Git with winget
-winget install Git.Git
-
-# install Your favorite terminal
-# winget install wez.wezterm
-winget install Microsoft.WindowsTerminal
-
-# install some Gnu utilities
-winget install GnuWin32.Grep
-
-# install GitHub CLI with winget
-winget install --id GitHub.cli
-
-# install visual studio
-# winget install --id Microsoft.VisualStudio.2022.Community
-winget install --id Microsoft.VisualStudio.2022.BuildTools
-winget install --id Microsoft.VC++2015-2022Redist-x64
-
-# install rust (may not be the best way)
-# winget install --id Rustlang.Rust.MSVC
-# winget install --id Rustlang.Rust.GNU
-#
-# install rust the best way
-# ./installers/vs_BuildTools.exe
-winget install --id Microsoft.VisualStudio.2019.BuildTools
-./installers/rustup-init.exe
-
-# Login to GitHub
-gh auth login
-
-# Initialize basic repos
-mkdir $HOME\Projects
-cd $HOME\Projects
-
 # install the posh-git module
 Install-Module posh-git -Scope CurrentUser -Force
 Import-Module posh-git
@@ -51,14 +14,20 @@ Import-Module cd-extras
 # Set the execution policy to Bypass so we can run scripts
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
-# Install Chocolatey
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+# Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+Invoke-RestMethod get.scoop.sh | Invoke-Expression
 
-# Install programs using chocolatey
-choco install neovim -y
-choco install vifm
+# To save your currently installed scoops use:
+# scoop export > scoopfile.json
+scoop import .\scoopfile.json
 
-# Install Scoop
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+# install Your favorite terminal
+# winget install wez.wezterm
+winget install Microsoft.WindowsTerminal
+
+# install some Gnu utilities
+winget install GnuWin32.Grep
+
+# remap capslock key to escape
+.\installers\caps-remap.reg
 
