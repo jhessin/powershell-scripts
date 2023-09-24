@@ -28,6 +28,3 @@ winget install Microsoft.WindowsTerminal
 # install some Gnu utilities
 winget install GnuWin32.Grep
 
-# remap capslock key to escape
-.\installers\caps-remap.reg
-

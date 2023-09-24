@@ -3,128 +3,246 @@
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2023-09-02T13:23:18-07:00",
-            "Manifests": 1891
+            "Updated": "2023-09-24T14:23:38-06:00",
+            "Manifests": 1889
         },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2023-09-02T13:22:48-07:00",
-            "Manifests": 1229
+            "Updated": "2023-09-24T14:23:19-06:00",
+            "Manifests": 1247
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2023-09-24T14:28:08-06:00",
+            "Manifests": 430
         }
     ],
     "apps": [
         {
-            "Updated": "2023-09-02T10:47:08.0033059-07:00",
+            "Name": "7zip",
+            "Info": "",
             "Source": "main",
             "Version": "23.01",
-            "Name": "7zip",
-            "Info": ""
+            "Updated": "2023-09-02T11:47:08.0033059-06:00"
         },
         {
-            "Updated": "2023-09-02T11:59:48.3825924-07:00",
+            "Name": "autohotkey",
+            "Info": "",
+            "Source": "extras",
+            "Version": "2.0.7",
+            "Updated": "2023-09-08T19:22:46.7347067-06:00"
+        },
+        {
+            "Name": "bc",
+            "Info": "",
+            "Source": "main",
+            "Version": "1.07.1",
+            "Updated": "2023-09-24T16:38:06.3661553-06:00"
+        },
+        {
+            "Name": "Blish",
+            "Info": "Install failed",
+            "Source": null,
+            "Version": null,
+            "Updated": "2023-09-17T11:36:30.0024811-06:00"
+        },
+        {
+            "Name": "dark",
+            "Info": "",
             "Source": "main",
             "Version": "3.11.2",
-            "Name": "dark",
-            "Info": ""
+            "Updated": "2023-09-02T12:59:48.3825924-06:00"
         },
         {
-            "Updated": "2023-09-02T12:15:43.6240384-07:00",
+            "Name": "firefox",
+            "Info": "",
             "Source": "extras",
             "Version": "117.0",
-            "Name": "firefox",
-            "Info": ""
+            "Updated": "2023-09-02T13:15:43.6240384-06:00"
         },
         {
-            "Updated": "2023-09-02T11:10:53.4098696-07:00",
+            "Name": "firefoxpwa",
+            "Info": "",
             "Source": "extras",
             "Version": "2.7.3",
-            "Name": "firefoxpwa",
-            "Info": ""
+            "Updated": "2023-09-02T12:10:53.4098696-06:00"
         },
         {
-            "Updated": "2023-09-02T11:57:51.8171746-07:00",
+            "Name": "gcc",
+            "Info": "",
             "Source": "main",
             "Version": "11.2.0",
-            "Name": "gcc",
-            "Info": ""
+            "Updated": "2023-09-02T12:57:51.8171746-06:00"
         },
         {
-            "Updated": "2023-09-02T11:16:20.3903766-07:00",
+            "Name": "gh",
+            "Info": "",
             "Source": "main",
             "Version": "2.33.0",
-            "Name": "gh",
-            "Info": ""
+            "Updated": "2023-09-02T12:16:20.3903766-06:00"
         },
         {
-            "Updated": "2023-09-02T10:50:27.7892616-07:00",
+            "Name": "git",
+            "Info": "",
             "Source": "main",
             "Version": "2.42.0.2",
-            "Name": "git",
-            "Info": ""
+            "Updated": "2023-09-02T11:50:27.7892616-06:00"
         },
         {
-            "Updated": "2023-09-02T11:38:03.321719-07:00",
+            "Name": "GW2-Addon-Manager",
+            "Info": "Install failed",
+            "Source": null,
+            "Version": null,
+            "Updated": "2023-09-07T14:51:11.4364648-06:00"
+        },
+        {
+            "Name": "less",
+            "Info": "",
+            "Source": "main",
+            "Version": "643",
+            "Updated": "2023-09-04T13:10:29.8851238-06:00"
+        },
+        {
+            "Name": "lua",
+            "Info": "",
+            "Source": "main",
+            "Version": "5.4.2",
+            "Updated": "2023-09-03T10:21:44.179747-06:00"
+        },
+        {
+            "Name": "mariadb",
+            "Info": "",
+            "Source": "main",
+            "Version": "11.1.2",
+            "Updated": "2023-09-04T13:00:45.068231-06:00"
+        },
+        {
+            "Name": "neovim",
+            "Info": "",
             "Source": "main",
             "Version": "0.9.1",
-            "Name": "neovim",
-            "Info": ""
+            "Updated": "2023-09-02T12:38:03.321719-06:00"
         },
         {
-            "Updated": "2023-09-02T12:03:59.0033095-07:00",
+            "Name": "nvm",
+            "Info": "",
             "Source": "main",
             "Version": "1.1.11",
-            "Name": "nvm",
-            "Info": ""
+            "Updated": "2023-09-02T13:03:59.0033095-06:00"
         },
         {
-            "Updated": "2023-09-02T13:59:52.1515552-07:00",
+            "Name": "oh-my-posh",
+            "Info": "",
+            "Source": "main",
+            "Version": "18.10.1",
+            "Updated": "2023-09-24T10:07:25.9975824-06:00"
+        },
+        {
+            "Name": "posh-git",
+            "Info": "",
             "Source": "extras",
             "Version": "1.1.0",
-            "Name": "posh-git",
-            "Info": ""
+            "Updated": "2023-09-02T14:59:52.1515552-06:00"
         },
         {
-            "Updated": "2023-09-02T10:57:43.3117364-07:00",
-            "Source": "main",
-            "Version": "7.3.6",
             "Name": "pwsh",
-            "Info": ""
+            "Info": "",
+            "Source": "main",
+            "Version": "7.3.7",
+            "Updated": "2023-09-23T10:27:26.7422365-06:00"
         },
         {
-            "Updated": "2023-09-02T12:06:37.1202527-07:00",
+            "Name": "python",
+            "Info": "",
             "Source": "main",
             "Version": "3.11.5",
-            "Name": "python",
-            "Info": ""
+            "Updated": "2023-09-02T13:06:37.1202527-06:00"
         },
         {
-            "Updated": "2023-09-02T10:55:39.6651175-07:00",
+            "Name": "ripgrep",
+            "Info": "",
+            "Source": "main",
+            "Version": "13.0.0",
+            "Updated": "2023-09-23T11:36:41.6214306-06:00"
+        },
+        {
+            "Name": "steam",
+            "Info": "",
+            "Source": "versions",
+            "Version": "nightly-20230905",
+            "Updated": "2023-09-05T16:27:30.3965016-06:00"
+        },
+        {
+            "Name": "steamcmd",
+            "Info": "",
+            "Source": "extras",
+            "Version": "1691628584",
+            "Updated": "2023-09-05T16:26:41.6246366-06:00"
+        },
+        {
+            "Name": "sudo",
+            "Info": "",
+            "Source": "main",
+            "Version": "0.2020.01.26",
+            "Updated": "2023-09-04T13:05:53.7099489-06:00"
+        },
+        {
+            "Name": "TacO",
+            "Info": "Install failed",
+            "Source": null,
+            "Version": null,
+            "Updated": "2023-09-17T11:28:49.87425-06:00"
+        },
+        {
+            "Name": "uncap",
+            "Info": "",
             "Source": "main",
             "Version": "0.3.0",
-            "Name": "uncap",
-            "Info": ""
+            "Updated": "2023-09-02T11:55:39.6651175-06:00"
         },
         {
-            "Updated": "2023-09-02T11:15:26.6484976-07:00",
+            "Name": "vcredist2022",
+            "Info": "",
             "Source": "extras",
             "Version": "14.36.32532.0",
-            "Name": "vcredist2022",
-            "Info": ""
+            "Updated": "2023-09-02T12:15:26.6484976-06:00"
         },
         {
-            "Updated": "2023-09-02T11:47:31.2014916-07:00",
+            "Name": "vifm",
+            "Info": "",
             "Source": "extras",
             "Version": "0.13",
-            "Name": "vifm",
-            "Info": ""
+            "Updated": "2023-09-02T12:47:31.2014916-06:00"
         },
         {
-            "Updated": "2023-09-02T14:18:28.7893233-07:00",
+            "Name": "vscode",
+            "Info": "",
+            "Source": "extras",
+            "Version": "1.82.2",
+            "Updated": "2023-09-17T18:48:41.4422282-06:00"
+        },
+        {
+            "Name": "which",
+            "Info": "",
+            "Source": "main",
+            "Version": "2.20",
+            "Updated": "2023-09-05T20:21:18.7928424-06:00"
+        },
+        {
+            "Name": "winget",
+            "Info": "",
             "Source": "main",
             "Version": "1.5.2201",
-            "Name": "winget",
-            "Info": ""
+            "Updated": "2023-09-02T15:18:28.7893233-06:00"
+        },
+        {
+            "Name": "zoom",
+            "Info": "",
+            "Source": "extras",
+            "Version": "5.16.0.22201",
+            "Updated": "2023-09-19T17:27:23.9894642-06:00"
         }
     ]
 }
